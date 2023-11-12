@@ -1,0 +1,225 @@
+header {
+  background-image: url(/img/bgc.png);
+  width: 100%;
+  height: 1080px;
+  background-repeat: no-repeat;
+}
+header nav {
+  justify-content: space-around;
+  display: flex;
+  padding-top: 15px;
+}
+header nav img {
+  cursor: pointer;
+}
+header main h1 {
+  color: var(--Gray-6, #f2f2f2);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 19rem;
+  margin-bottom: 11rem;
+}
+header .main__bottom {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+header .main__bottom button {
+  border: 1px solid #c4c4c4;
+  background: rgba(17, 17, 17, 0.6);
+  width: 348px;
+  height: 77px;
+  margin-left: 3rem;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+}
+
+section .section__top {
+  width: 1340px;
+  height: 272px;
+  background: var(--Gray-6, #f2f2f2);
+  margin: 0 auto;
+  margin-top: 45px;
+}
+section .section__top_card h3 {
+  color: #0e0e0e;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section .section__top_card ul {
+  color: #0e0e0e;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section .section__top_card {
+  color: #0e0e0e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+section .section__center h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+section .section__left {
+  margin-left: 203px;
+  margin-right: 15px;
+}
+section .section__left h4 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+section .section__left p {
+  color: var(--Gray-1, #333);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 147.187%;
+  margin-bottom: 155px;
+}
+section .section__left button {
+  width: 510px;
+  height: 112px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+}
+section .section__right ul {
+  list-style: square;
+  color: var(--Gray-1, #333);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 147.187%;
+}
+section .section__right p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.187%;
+}
+section .section__bottom h4 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 48px;
+  margin-left: 50px;
+}
+section .section__bottom img {
+  margin-bottom: 25px;
+}
+section .section__bottom_card {
+  width: 330px;
+  height: 620px;
+}
+section .section__bottom_card h3 {
+  color: #0e0e0e;
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section .section__bottom_card p {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.187%;
+  margin-top: 15px;
+}
+section .section__last_card h5 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+section .section__last_card h6 {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+section .section__last_card p {
+  color: var(--Gray-1, #333);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+section .btn {
+  width: 273px;
+  height: 66px;
+  border: 1px solid #000;
+  background: #000;
+  color: var(--Gray-6, #f2f2f2);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 700px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+section .btn img {
+  border: 1px solid black;
+  border-width: 10px;
+  align-items: center;
+}/*# sourceMappingURL=mixins.css.map */
